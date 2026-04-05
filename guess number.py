@@ -15,15 +15,11 @@ while True:
        continue
     if  guess < number:
         print("Guess is low ")
-    
     elif guess > number:
-
         print("Guess is high ")
-    
     else: 
         print("CongratulationS \nYou guess the number{number}")
-        print("Attempts : ",attempts)
-        
+        print("Attempts : ",attempts) 
         break
 
 if__name__== "_main_":
